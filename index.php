@@ -42,9 +42,6 @@
 	<img src="menu.jpg" style="margin-left: 200px;" width="100px;" height="100px; ">
 </div>	
 <br>
-  <?php
-    for($leo = 0; $leo<10; $leo++){
-  ?>
 <div class="container">
 	<table class="tabela table table-bordered">
 		<thead class="thead-dark">
@@ -56,6 +53,9 @@
 				<th scope="col">Sexo</th>
 			</tr>
 		</thead>
+		  <?php
+    			for($leo = 0; $leo<10; $leo++){
+ 		   ?>
 		<tbody>
 			<tr>
 				
@@ -65,11 +65,12 @@
 				<td><?php echo $json_Data['results'][$leo]['eye_color']?></td>
 				<td><?php echo $json_Data['results'][$leo]['gender']?></td>
 			</tr>
-		</tbody>	
+		</tbody>
+		<?php
+    		  } 
+  		?>
 	</table>
 </div>
-  <?php
-    } 
-  ?>
+ 
 </body>
 </html>
