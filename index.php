@@ -27,7 +27,7 @@
 		padding: 5px;
 		}
 	.table-bordered{
-		background-color: rgba(000,000,000,o.8);
+		background-color: rgba(000,000,000,0.8);
 	}
 	.menu{
 		background-color: #000;
