@@ -39,7 +39,7 @@
  ?>
 <body>
 <div class="menu">
-	<img src="menu.jpg" style="margin-left: 200px;" width="100px;" height="100px; ">
+	<img src="menu.jpg" style="margin-left: 560px;" width="250px;" height="150px; ">
 </div>	
 <br>
 <div class="container">
